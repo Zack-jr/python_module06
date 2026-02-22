@@ -26,6 +26,8 @@ def ft_sacred_scroll():
 if __name__ == '__main__':
     ft_sacred_scroll()
 
+# absolute imports = scanning from the root (import example)
+# relative import = getting the file in the same directory as the import (import .example)
 # structure: importing the alchemy package
 # first using the functions without passing by the elemets module
 # then using the functions by accessing them directly (passing by init)
