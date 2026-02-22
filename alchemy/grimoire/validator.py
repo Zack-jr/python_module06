@@ -1,10 +1,15 @@
 def validate_ingredients(ingredients : str) -> str:
-    valid = ["fire", "water", "earth", "air"]
+    element_arr = ingredients.split(" ")
+    flag = 0
 
-    if ingredients in valid:
-        return f"{ingredients} - VALID"
-    else:
+    elements = "air water fire earth"
+    for e in element_arr:
+        if e in elements:
+            pass
+        else:
+            flag = 1
+    if flag == 1:
         return f"{ingredients} - INVALID"
+    if flag == 0:
+        return f"{ingredients} - VALID"
 
-if __name__ == '__main__':
-    print(validate_ingredients("salope"))
