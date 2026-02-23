@@ -1,4 +1,4 @@
-def validate_ingredients(ingredients : str) -> str:
+def validate_ingredients(ingredients: str) -> str:
     element_arr = ingredients.split(" ")
     flag = 0
 
@@ -12,4 +12,3 @@ def validate_ingredients(ingredients : str) -> str:
         return f"{ingredients} - INVALID"
     if flag == 0:
         return f"{ingredients} - VALID"
-
