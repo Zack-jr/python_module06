@@ -3,7 +3,7 @@ from alchemy.grimoire import validate_ingredients, record_spell
 
 def ft_circular_curse():
 
-    print("=== Circular Curse Breaking ===")
+    print("\n=== Circular Curse Breaking ===\n")
 
     print("Testing ingredient validation:")
     print(f'validate_ingredients("fire air"): '

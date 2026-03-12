@@ -17,10 +17,10 @@ def ft_import_transmutation():
           f"{alchemy.elements.create_fire()}\n")
 
     print("Method 2 - Specific function import:")
-    print(f"create_water(): {create_water()}")
+    print(f"create_water(): {create_water()}\n")
 
     print("Method 3 - Aliased import:")
-    print(f"heal(): {heal()}")
+    print(f"heal(): {heal()}\n")
 
     print("Method 4 - Multiple imports:")
     print(f"create_earth(): {create_earth()}")

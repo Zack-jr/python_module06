@@ -25,7 +25,7 @@ def ft_sacred_scroll():
 
     print("\nPackage metadata:")
     print(alchemy.__version__)
-    print(alchemy.__author__)
+    print(f"Author: {alchemy.__author__}")
 
 
 if __name__ == '__main__':
